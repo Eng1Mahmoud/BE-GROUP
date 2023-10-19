@@ -774,6 +774,9 @@ footer .social li a i {
 }
 
 @media (max-width:992px) {
+   .swiper {
+      height: 80vh;
+   }
    .navbar {
       background: orange !important;
       position: static;
