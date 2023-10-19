@@ -737,6 +737,13 @@ footer .social li a i {
 
 /*start media quiry*/
 @media (max-width:768px) {
+   .swiper-horizontal>.swiper-pagination-bullets,
+   .swiper-pagination-bullets.swiper-pagination-horizontal,
+   .swiper-pagination-custom,
+   .swiper-pagination-fraction {
+    display:none !important;
+   
+   }
    .dsescription {
       width: 100% !important;
       padding: 10px !important;
@@ -786,14 +793,6 @@ footer .social li a i {
    .navbar .btn:hover {
       background: white !important;
       color: orange !important;
-   }
-   .swiper-horizontal>.swiper-pagination-bullets,
-   .swiper-pagination-bullets.swiper-pagination-horizontal,
-   .swiper-pagination-custom,
-   .swiper-pagination-fraction {
-    display:none !important;
-   
-   
    }
    
    .nav-link {
