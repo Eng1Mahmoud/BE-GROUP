@@ -37,13 +37,17 @@ main .container {
    height: 40px;
    padding-top: 5px
 }
-
+main .social{
+   padding-left: 0px;
+}
 main .social li a {
    color: white;
    text-decoration: underline;
 
 }
-
+main .links{
+   padding-left:4rem;
+}
 main .links li a {
    border-right: 2px solid white;
    padding-right: 6px;
