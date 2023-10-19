@@ -775,8 +775,9 @@ footer .social li a i {
 
 @media (max-width:992px) {
    .swiper {
-      height: 90vh;
+      height: 95vh;
    }
+   
    .navbar {
       background: orange !important;
       position: static;
@@ -786,7 +787,15 @@ footer .social li a i {
       background: white !important;
       color: orange !important;
    }
-
+   .swiper-horizontal>.swiper-pagination-bullets,
+   .swiper-pagination-bullets.swiper-pagination-horizontal,
+   .swiper-pagination-custom,
+   .swiper-pagination-fraction {
+    display:none !important;
+   
+   
+   }
+   
    .nav-link {
       color: rgba(240, 248, 255, 0.849) !important;
       font-size: 25px;
